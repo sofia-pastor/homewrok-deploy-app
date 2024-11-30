@@ -31,6 +31,17 @@ export default function App() {
         <input type="submit" value="Search" />
       </form>
       <Weather city={finalInput} />
+      <footer>
+        This project was coded by Sofia Pastor and is{" "}
+        <a
+          href="https://github.com/sofia-pastor/homewrok-deploy-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced
+        </a>
+        .
+      </footer>
     </div>
   );
 }
